@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check whether</title>
+    <link rel="stylesheet" href="Whether.css">
+</head>
+<body>
+    <div class="container" id="contain">
+        <div class="box">
+            <input type="text" id="Name" class="city" placeholder="City Name">
+            <button id="search" class="btn">
+            <ion-icon name="search-outline" class="icon"></ion-icon>
+            </button>
+    </div>
+        <div class="img">
+            <img src="https://th.bing.com/th/id/OIP.dwvFDO4BSoCOgYA3FkrH_gHaEo?rs=1&pid=ImgDetMain" id="image" height="150" width="180">
+            <p id="status"></p>
+            <p id="city"></p>
+        </div>
+        <div class="info">
+            <div class="temperature">
+                <h1 id="temp"> Temprature </h1> 
+                <br />
+                <img src="humidity.png" height="50px" width="70px">
+                <p id="humidity"></p>
+            </div>
+        </div>
+        <div class="info2">
+            <div class="wind">
+                <h1 id="speed">Wind Speed</h1> 
+                <br />
+                <img src="wind.png" height="50px" width="70px" >
+                <p id="description"></p>
+            </div>
+        </div>
+    </div>
+    <script src="Whether.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
